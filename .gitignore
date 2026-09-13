@@ -1,0 +1,31 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment and secrets (commit an .env.example instead)
+.env
+.env.*
+!.env.example
+
+# Dependencies, build outputs, and caches
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
